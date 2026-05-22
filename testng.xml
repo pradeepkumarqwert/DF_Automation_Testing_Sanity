@@ -62,23 +62,23 @@
 
 
 <!--Groups description-->
-
-    <!--{"All",
-            "Web",
-            "Mobile",
-                Android_Mobile,
-                    Android_Mobile_App,
-                    Android_Mobile_Browser,
-                iOS_Mobile,
-                    iOS_Mobile_App,
-                    iOS_Mobile_Browser,
-            "Tablet",
-                Android_Tablet,
-                    Android_Tablet_App,
-                    Android_Tablet_Browser,
-                iOS_iPad,
-                    iOS_iPad_App,
-                    iOS_iPad_Browser,
-            "TV",
-                AndroidTV
-               }-->
+<!--
+        All
+        ├── Web
+        ├── Mobile
+        │    ├── Android_Mobile
+        │    │    ├── Android_Mobile_App
+        │    │    └── Android_Mobile_Browser
+        │    └── iOS_Mobile
+        │         ├── iOS_Mobile_App
+        │         └── iOS_Mobile_Browser
+        ├── Tablet
+        │    ├── Android_Tablet
+        │    │    ├── Android_Tablet_App
+        │    │    └── Android_Tablet_Browser
+        │    └── iOS_iPad
+        │         ├── iOS_iPad_App
+        │         └── iOS_iPad_Browser
+        └── TV
+        └── AndroidTV
+-->
