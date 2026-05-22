@@ -1,0 +1,213 @@
+<html>
+<head>
+<title>TestNG:  DeviceFarm_AT_TV</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>DeviceFarm_AT_TV</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 22 13:05:57 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>4 seconds (4388 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>AndroidTV </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AT_Scripts._10_TV_AndroidTv.TVAndroidTVAppAPIDemoApp()'><b>TVAndroidTVAppAPIDemoApp</b><br>Test class: AT_Scripts._10_TV_AndroidTv<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, Google TV, Android, 16, ApiDemos-debug.apk, public, true, false</td>
+<td><div><pre>java.lang.RuntimeException: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the service http://localhost:4734/wd/hub. Could not start a new session. Response code 500. Message: Error executing adbExec. Original error: &apos;Command &apos;/Users/fireflinkcloud/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5560 shell pm clear io.appium.android.apis&apos; exited with code 1&apos;; Command output: Failed
+ 
+Host info: host: &apos;Fireflinks-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:18e6:3fe2:5f53:5a47%en0&apos;
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.7.6&apos;, java.version: &apos;17.0.15&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.7.6&apos;, java.version: &apos;17.0.15&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.21.0&apos;, revision: &apos;Unknown&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-126-generic&apos;, java.version: &apos;17.0.18&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=ApiDemos-debug.apk, appium:deviceName=Google TV, appium:deviceType=public, appium:isVirtual=true, appium:platformVersion=16, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:app: ApiDemos-debug.apk, appium:deviceName: Google TV, appium:deviceType: public, appium:isVirtual: true, appium:platformVersion: 16, platformName: ANDROID}}]
+Capabilities {appium:app: ApiDemos-debug.apk, appium:deviceName: Google TV, appium:deviceType: public, appium:isVirtual: true, appium:platformVersion: 16, platformName: ANDROID}
+	at AT_Scripts._10_TV_AndroidTv.TVAndroidTVAppAPIDemoApp(_10_TV_AndroidTv.java:120)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the service http://localhost:4734/wd/hub. Could not start a new session. Response code 500. Message: Error executing adbExec. Original error: &apos;Command &apos;/Users/fireflinkcloud/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5560 shell pm clear io.appium.android.apis&apos; exited with code 1&apos;; Command output: Failed
+ 
+Host info: host: &apos;Fireflinks-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:18e6:3fe2:5f53:5a47%en0&apos;
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.7.6&apos;, java.version: &apos;17.0.15&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.7.6&apos;, java.version: &apos;17.0.15&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.21.0&apos;, revision: &apos;Unknown&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-126-generic&apos;, java.version: &apos;17.0.18&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=ApiDemos-debug.apk, appium:deviceName=Google TV, appium:deviceType=public, appium:isVirtual=true, appium:platformVersion=16, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:app: ApiDemos-debug.apk, appium:deviceName: Google TV, appium:deviceType: public, appium:isVirtual: true, appium:platformVersion: 16, platformName: ANDROID}}]
+Capabilities {appium:app: ApiDemos-debug.apk, appium:deviceName: Google TV, appium:deviceType: public, appium:isVirtual: true, appium:platformVersion: 16, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:101)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:113)
+	at AT_Scripts._10_TV_AndroidTv.TVAndroidTVAppAPIDemoApp(_10_TV_AndroidTv.java:40)
+	... 22 more
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace649827898", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace649827898'><pre>java.lang.RuntimeException: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the service http://localhost:4734/wd/hub. Could not start a new session. Response code 500. Message: Error executing adbExec. Original error: &apos;Command &apos;/Users/fireflinkcloud/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5560 shell pm clear io.appium.android.apis&apos; exited with code 1&apos;; Command output: Failed
+ 
+Host info: host: &apos;Fireflinks-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:18e6:3fe2:5f53:5a47%en0&apos;
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.7.6&apos;, java.version: &apos;17.0.15&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.7.6&apos;, java.version: &apos;17.0.15&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.21.0&apos;, revision: &apos;Unknown&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-126-generic&apos;, java.version: &apos;17.0.18&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=ApiDemos-debug.apk, appium:deviceName=Google TV, appium:deviceType=public, appium:isVirtual=true, appium:platformVersion=16, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:app: ApiDemos-debug.apk, appium:deviceName: Google TV, appium:deviceType: public, appium:isVirtual: true, appium:platformVersion: 16, platformName: ANDROID}}]
+Capabilities {appium:app: ApiDemos-debug.apk, appium:deviceName: Google TV, appium:deviceType: public, appium:isVirtual: true, appium:platformVersion: 16, platformName: ANDROID}
+	at AT_Scripts._10_TV_AndroidTv.TVAndroidTVAppAPIDemoApp(_10_TV_AndroidTv.java:120)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the service http://localhost:4734/wd/hub. Could not start a new session. Response code 500. Message: Error executing adbExec. Original error: &apos;Command &apos;/Users/fireflinkcloud/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5560 shell pm clear io.appium.android.apis&apos; exited with code 1&apos;; Command output: Failed
+ 
+Host info: host: &apos;Fireflinks-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:18e6:3fe2:5f53:5a47%en0&apos;
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.7.6&apos;, java.version: &apos;17.0.15&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.7.6&apos;, java.version: &apos;17.0.15&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.21.0&apos;, revision: &apos;Unknown&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-126-generic&apos;, java.version: &apos;17.0.18&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=ApiDemos-debug.apk, appium:deviceName=Google TV, appium:deviceType=public, appium:isVirtual=true, appium:platformVersion=16, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:app: ApiDemos-debug.apk, appium:deviceName: Google TV, appium:deviceType: public, appium:isVirtual: true, appium:platformVersion: 16, platformName: ANDROID}}]
+Capabilities {appium:app: ApiDemos-debug.apk, appium:deviceName: Google TV, appium:deviceType: public, appium:isVirtual: true, appium:platformVersion: 16, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:101)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:113)
+	at AT_Scripts._10_TV_AndroidTv.TVAndroidTVAppAPIDemoApp(_10_TV_AndroidTv.java:40)
+	... 22 more
+</pre></div></td>
+<td>4</td>
+<td>AT_Scripts._10_TV_AndroidTv@59505b48</td></tr>
+</table><p>
+</body>
+</html>

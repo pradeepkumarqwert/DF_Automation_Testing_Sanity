@@ -1,0 +1,219 @@
+<html>
+<head>
+<title>TestNG:  DeviceFarm_AT_Mobile</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>DeviceFarm_AT_Mobile</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 22 13:05:57 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>405 seconds (405303 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Mobile </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AT_Scripts._04_Mobile_iOS_App.iOSMobileAppBigBasket()'><b>iOSMobileAppBigBasket</b><br>Test class: AT_Scripts._04_Mobile_iOS_App<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, iPhone 11, iOS, 18.3, bigbasket.ipa, public, false, com.bigbasket.mobileapp, false</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: AppiumBy.iOSNsPredicate: label == &apos;Cancel&apos; (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at AT_Scripts._04_Mobile_iOS_App.iOSMobileAppBigBasket(_04_Mobile_iOS_App.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [d95052cc-37ba-4fdb-ac01-97559b050c1f, findElement {using=-ios predicate string, value=label == &apos;Cancel&apos;}]
+Capabilities {appium:app: https://fireflink-test3.s3...., appium:autoAcceptAlerts: true, appium:automationName: XCUITest, appium:bundleId: com.bigbasket.mobileapp, appium:databaseEnabled: false, appium:deviceName: iPhone 11, appium:deviceType: public, appium:fullReset: true, appium:isVirtual: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:mjpegScreenshotUrl: http://localhost:9101, appium:mjpegServerPort: 9101, appium:networkConnectionEnabled: false, appium:platformVersion: 18.3, appium:takesScreenshot: true, appium:udid: 00008030-001A6C912EF2402E, appium:wdaLocalPort: 8101, appium:webStorageEnabled: false, platformName: IOS, se:bidiEnabled: false, se:cdpEnabled: false}
+Session ID: d95052cc-37ba-4fdb-ac01-97559b050c1f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 23 more
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace735069311", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace735069311'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: AppiumBy.iOSNsPredicate: label == &apos;Cancel&apos; (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at AT_Scripts._04_Mobile_iOS_App.iOSMobileAppBigBasket(_04_Mobile_iOS_App.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [d95052cc-37ba-4fdb-ac01-97559b050c1f, findElement {using=-ios predicate string, value=label == &apos;Cancel&apos;}]
+Capabilities {appium:app: https://fireflink-test3.s3...., appium:autoAcceptAlerts: true, appium:automationName: XCUITest, appium:bundleId: com.bigbasket.mobileapp, appium:databaseEnabled: false, appium:deviceName: iPhone 11, appium:deviceType: public, appium:fullReset: true, appium:isVirtual: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:mjpegScreenshotUrl: http://localhost:9101, appium:mjpegServerPort: 9101, appium:networkConnectionEnabled: false, appium:platformVersion: 18.3, appium:takesScreenshot: true, appium:udid: 00008030-001A6C912EF2402E, appium:wdaLocalPort: 8101, appium:webStorageEnabled: false, platformName: IOS, se:bidiEnabled: false, se:cdpEnabled: false}
+Session ID: d95052cc-37ba-4fdb-ac01-97559b050c1f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 23 more
+</pre></div></td>
+<td>52</td>
+<td>AT_Scripts._04_Mobile_iOS_App@17497425</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AT_Scripts._03_Mobile_Android_Browser.androidMobileBrowserPantaloonsSite()'><b>androidMobileBrowserPantaloonsSite</b><br>Test class: AT_Scripts._03_Mobile_Android_Browser<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, Pixel 7 Pro, Android, 14, Chrome, public, true, false</td>
+<td></td>
+<td>50</td>
+<td>AT_Scripts._03_Mobile_Android_Browser@194bcebf</td></tr>
+<tr>
+<td title='AT_Scripts._05_Mobile_iOS_Browser.iOSMobileBrowserWikipedia()'><b>iOSMobileBrowserWikipedia</b><br>Test class: AT_Scripts._05_Mobile_iOS_Browser<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, iPhone 11, iOS, 18.3, Safari, public, false, false</td>
+<td></td>
+<td>48</td>
+<td>AT_Scripts._05_Mobile_iOS_Browser@f0da945</td></tr>
+<tr>
+<td title='AT_Scripts._03_Mobile_Android_Browser.androidMobileBrowserPantaloonsSite()'><b>androidMobileBrowserPantaloonsSite</b><br>Test class: AT_Scripts._03_Mobile_Android_Browser<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, Samsung Galaxy A12, Android, 12, Chrome, public, false, false</td>
+<td></td>
+<td>49</td>
+<td>AT_Scripts._03_Mobile_Android_Browser@194bcebf</td></tr>
+<tr>
+<td title='AT_Scripts._02_Mobile_Android_App.androidMobileAppGeneralStore()'><b>androidMobileAppGeneralStore</b><br>Test class: AT_Scripts._02_Mobile_Android_App<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, Samsung Galaxy A12, Android, 12, General-Store-final (4).apk, public, false, false</td>
+<td></td>
+<td>37</td>
+<td>AT_Scripts._02_Mobile_Android_App@3c7f66c4</td></tr>
+<tr>
+<td title='AT_Scripts._03_Mobile_Android_Browser.androidMobileBrowserPantaloonsSite()'><b>androidMobileBrowserPantaloonsSite</b><br>Test class: AT_Scripts._03_Mobile_Android_Browser<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, OnePlus Nord CE 2 Lite 5G, Android, 14, Chrome, public, false, false</td>
+<td></td>
+<td>49</td>
+<td>AT_Scripts._03_Mobile_Android_Browser@194bcebf</td></tr>
+<tr>
+<td title='AT_Scripts._03_Mobile_Android_Browser.androidMobileBrowserPantaloonsSite()'><b>androidMobileBrowserPantaloonsSite</b><br>Test class: AT_Scripts._03_Mobile_Android_Browser<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, Pixel 7, Android, 15, Chrome, public, true, false</td>
+<td></td>
+<td>45</td>
+<td>AT_Scripts._03_Mobile_Android_Browser@194bcebf</td></tr>
+<tr>
+<td title='AT_Scripts._02_Mobile_Android_App.androidMobileAppGeneralStore()'><b>androidMobileAppGeneralStore</b><br>Test class: AT_Scripts._02_Mobile_Android_App<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, Pixel 7 Pro, Android, 14, General-Store-final (4).apk, public, true, false</td>
+<td></td>
+<td>34</td>
+<td>AT_Scripts._02_Mobile_Android_App@3c7f66c4</td></tr>
+<tr>
+<td title='AT_Scripts._02_Mobile_Android_App.androidMobileAppGeneralStore()'><b>androidMobileAppGeneralStore</b><br>Test class: AT_Scripts._02_Mobile_Android_App<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, Pixel 7, Android, 15, General-Store-final (4).apk, public, true, false</td>
+<td></td>
+<td>38</td>
+<td>AT_Scripts._02_Mobile_Android_App@3c7f66c4</td></tr>
+</table><p>
+</body>
+</html>

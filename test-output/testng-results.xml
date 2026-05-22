@@ -1,0 +1,1666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="21" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-22T13:05:57 IST" name="DF_Automation_Testing" finished-at="2026-05-22T13:18:37 IST" duration-ms="760429">
+    <groups>
+      <group name="All">
+        <method signature="_01_Web_Automation.webAutomationPantaloonsSite(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AT_Scripts._01_Web_Automation@14555e0a]" name="webAutomationPantaloonsSite" class="AT_Scripts._01_Web_Automation"/>
+        <method signature="_02_Mobile_Android_App.androidMobileAppGeneralStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._02_Mobile_Android_App@3c7f66c4]" name="androidMobileAppGeneralStore" class="AT_Scripts._02_Mobile_Android_App"/>
+        <method signature="_03_Mobile_Android_Browser.androidMobileBrowserPantaloonsSite(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._03_Mobile_Android_Browser@194bcebf]" name="androidMobileBrowserPantaloonsSite" class="AT_Scripts._03_Mobile_Android_Browser"/>
+        <method signature="_04_Mobile_iOS_App.iOSMobileAppBigBasket(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Boolean)[pri:0, instance:AT_Scripts._04_Mobile_iOS_App@17497425]" name="iOSMobileAppBigBasket" class="AT_Scripts._04_Mobile_iOS_App"/>
+        <method signature="_05_Mobile_iOS_Browser.iOSMobileBrowserWikipedia(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._05_Mobile_iOS_Browser@f0da945]" name="iOSMobileBrowserWikipedia" class="AT_Scripts._05_Mobile_iOS_Browser"/>
+        <method signature="_06_Tablet_Android_App.androidTabletAppGeneralStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._06_Tablet_Android_App@4659191b]" name="androidTabletAppGeneralStore" class="AT_Scripts._06_Tablet_Android_App"/>
+        <method signature="_07_Tablet_Android_Browser.androidTabletBrowserPantaloonsSite(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._07_Tablet_Android_Browser@55634720]" name="androidTabletBrowserPantaloonsSite" class="AT_Scripts._07_Tablet_Android_Browser"/>
+        <method signature="_08_iPad_iOS_App.iOSiPadAppSauceLabs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Boolean)[pri:0, instance:AT_Scripts._08_iPad_iOS_App@4b0d79fc]" name="iOSiPadAppSauceLabs" class="AT_Scripts._08_iPad_iOS_App"/>
+        <method signature="_09_iPad_iOS_Browser.iOSiPadBrowserWikipedia(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._09_iPad_iOS_Browser@4c1909a3]" name="iOSiPadBrowserWikipedia" class="AT_Scripts._09_iPad_iOS_Browser"/>
+        <method signature="_10_TV_AndroidTv.TVAndroidTVAppAPIDemoApp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._10_TV_AndroidTv@59505b48]" name="TVAndroidTVAppAPIDemoApp" class="AT_Scripts._10_TV_AndroidTv"/>
+      </group> <!-- All -->
+      <group name="TV">
+        <method signature="_10_TV_AndroidTv.TVAndroidTVAppAPIDemoApp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._10_TV_AndroidTv@59505b48]" name="TVAndroidTVAppAPIDemoApp" class="AT_Scripts._10_TV_AndroidTv"/>
+      </group> <!-- TV -->
+      <group name="Android_Mobile">
+        <method signature="_02_Mobile_Android_App.androidMobileAppGeneralStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._02_Mobile_Android_App@3c7f66c4]" name="androidMobileAppGeneralStore" class="AT_Scripts._02_Mobile_Android_App"/>
+        <method signature="_03_Mobile_Android_Browser.androidMobileBrowserPantaloonsSite(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._03_Mobile_Android_Browser@194bcebf]" name="androidMobileBrowserPantaloonsSite" class="AT_Scripts._03_Mobile_Android_Browser"/>
+      </group> <!-- Android_Mobile -->
+      <group name="iOS_iPad">
+        <method signature="_08_iPad_iOS_App.iOSiPadAppSauceLabs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Boolean)[pri:0, instance:AT_Scripts._08_iPad_iOS_App@4b0d79fc]" name="iOSiPadAppSauceLabs" class="AT_Scripts._08_iPad_iOS_App"/>
+        <method signature="_09_iPad_iOS_Browser.iOSiPadBrowserWikipedia(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._09_iPad_iOS_Browser@4c1909a3]" name="iOSiPadBrowserWikipedia" class="AT_Scripts._09_iPad_iOS_Browser"/>
+      </group> <!-- iOS_iPad -->
+      <group name="iOS_Mobile">
+        <method signature="_04_Mobile_iOS_App.iOSMobileAppBigBasket(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Boolean)[pri:0, instance:AT_Scripts._04_Mobile_iOS_App@17497425]" name="iOSMobileAppBigBasket" class="AT_Scripts._04_Mobile_iOS_App"/>
+        <method signature="_05_Mobile_iOS_Browser.iOSMobileBrowserWikipedia(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._05_Mobile_iOS_Browser@f0da945]" name="iOSMobileBrowserWikipedia" class="AT_Scripts._05_Mobile_iOS_Browser"/>
+      </group> <!-- iOS_Mobile -->
+      <group name="Android_Mobile_Browser">
+        <method signature="_03_Mobile_Android_Browser.androidMobileBrowserPantaloonsSite(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._03_Mobile_Android_Browser@194bcebf]" name="androidMobileBrowserPantaloonsSite" class="AT_Scripts._03_Mobile_Android_Browser"/>
+      </group> <!-- Android_Mobile_Browser -->
+      <group name="Mobile">
+        <method signature="_02_Mobile_Android_App.androidMobileAppGeneralStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._02_Mobile_Android_App@3c7f66c4]" name="androidMobileAppGeneralStore" class="AT_Scripts._02_Mobile_Android_App"/>
+        <method signature="_03_Mobile_Android_Browser.androidMobileBrowserPantaloonsSite(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._03_Mobile_Android_Browser@194bcebf]" name="androidMobileBrowserPantaloonsSite" class="AT_Scripts._03_Mobile_Android_Browser"/>
+        <method signature="_04_Mobile_iOS_App.iOSMobileAppBigBasket(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Boolean)[pri:0, instance:AT_Scripts._04_Mobile_iOS_App@17497425]" name="iOSMobileAppBigBasket" class="AT_Scripts._04_Mobile_iOS_App"/>
+        <method signature="_05_Mobile_iOS_Browser.iOSMobileBrowserWikipedia(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._05_Mobile_iOS_Browser@f0da945]" name="iOSMobileBrowserWikipedia" class="AT_Scripts._05_Mobile_iOS_Browser"/>
+      </group> <!-- Mobile -->
+      <group name="Android_Tablet">
+        <method signature="_06_Tablet_Android_App.androidTabletAppGeneralStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._06_Tablet_Android_App@4659191b]" name="androidTabletAppGeneralStore" class="AT_Scripts._06_Tablet_Android_App"/>
+        <method signature="_07_Tablet_Android_Browser.androidTabletBrowserPantaloonsSite(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._07_Tablet_Android_Browser@55634720]" name="androidTabletBrowserPantaloonsSite" class="AT_Scripts._07_Tablet_Android_Browser"/>
+      </group> <!-- Android_Tablet -->
+      <group name="iOS_Mobile_Browser">
+        <method signature="_05_Mobile_iOS_Browser.iOSMobileBrowserWikipedia(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._05_Mobile_iOS_Browser@f0da945]" name="iOSMobileBrowserWikipedia" class="AT_Scripts._05_Mobile_iOS_Browser"/>
+      </group> <!-- iOS_Mobile_Browser -->
+      <group name="Web">
+        <method signature="_01_Web_Automation.webAutomationPantaloonsSite(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AT_Scripts._01_Web_Automation@14555e0a]" name="webAutomationPantaloonsSite" class="AT_Scripts._01_Web_Automation"/>
+      </group> <!-- Web -->
+      <group name="AndroidTV">
+        <method signature="_10_TV_AndroidTv.TVAndroidTVAppAPIDemoApp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._10_TV_AndroidTv@59505b48]" name="TVAndroidTVAppAPIDemoApp" class="AT_Scripts._10_TV_AndroidTv"/>
+      </group> <!-- AndroidTV -->
+      <group name="iOS_iPad_App">
+        <method signature="_08_iPad_iOS_App.iOSiPadAppSauceLabs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Boolean)[pri:0, instance:AT_Scripts._08_iPad_iOS_App@4b0d79fc]" name="iOSiPadAppSauceLabs" class="AT_Scripts._08_iPad_iOS_App"/>
+      </group> <!-- iOS_iPad_App -->
+      <group name="iOS_iPad_Browser">
+        <method signature="_09_iPad_iOS_Browser.iOSiPadBrowserWikipedia(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._09_iPad_iOS_Browser@4c1909a3]" name="iOSiPadBrowserWikipedia" class="AT_Scripts._09_iPad_iOS_Browser"/>
+      </group> <!-- iOS_iPad_Browser -->
+      <group name="Android_Tablet_Browser">
+        <method signature="_07_Tablet_Android_Browser.androidTabletBrowserPantaloonsSite(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._07_Tablet_Android_Browser@55634720]" name="androidTabletBrowserPantaloonsSite" class="AT_Scripts._07_Tablet_Android_Browser"/>
+      </group> <!-- Android_Tablet_Browser -->
+      <group name="Tablet">
+        <method signature="_06_Tablet_Android_App.androidTabletAppGeneralStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._06_Tablet_Android_App@4659191b]" name="androidTabletAppGeneralStore" class="AT_Scripts._06_Tablet_Android_App"/>
+        <method signature="_07_Tablet_Android_Browser.androidTabletBrowserPantaloonsSite(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._07_Tablet_Android_Browser@55634720]" name="androidTabletBrowserPantaloonsSite" class="AT_Scripts._07_Tablet_Android_Browser"/>
+        <method signature="_08_iPad_iOS_App.iOSiPadAppSauceLabs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Boolean)[pri:0, instance:AT_Scripts._08_iPad_iOS_App@4b0d79fc]" name="iOSiPadAppSauceLabs" class="AT_Scripts._08_iPad_iOS_App"/>
+        <method signature="_09_iPad_iOS_Browser.iOSiPadBrowserWikipedia(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._09_iPad_iOS_Browser@4c1909a3]" name="iOSiPadBrowserWikipedia" class="AT_Scripts._09_iPad_iOS_Browser"/>
+      </group> <!-- Tablet -->
+      <group name="Android_Mobile_App">
+        <method signature="_02_Mobile_Android_App.androidMobileAppGeneralStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._02_Mobile_Android_App@3c7f66c4]" name="androidMobileAppGeneralStore" class="AT_Scripts._02_Mobile_Android_App"/>
+      </group> <!-- Android_Mobile_App -->
+      <group name="Android_Tablet_App">
+        <method signature="_06_Tablet_Android_App.androidTabletAppGeneralStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._06_Tablet_Android_App@4659191b]" name="androidTabletAppGeneralStore" class="AT_Scripts._06_Tablet_Android_App"/>
+      </group> <!-- Android_Tablet_App -->
+      <group name="iOS_Mobile_App">
+        <method signature="_04_Mobile_iOS_App.iOSMobileAppBigBasket(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Boolean)[pri:0, instance:AT_Scripts._04_Mobile_iOS_App@17497425]" name="iOSMobileAppBigBasket" class="AT_Scripts._04_Mobile_iOS_App"/>
+      </group> <!-- iOS_Mobile_App -->
+    </groups>
+    <test started-at="2026-05-22T13:05:57 IST" name="DeviceFarm_AT_TV" finished-at="2026-05-22T13:06:01 IST" duration-ms="4388">
+      <class name="AT_Scripts._10_TV_AndroidTv">
+        <test-method signature="TVAndroidTVAppAPIDemoApp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._10_TV_AndroidTv@59505b48]" started-at="2026-05-22T13:05:57 IST" name="TVAndroidTVAppAPIDemoApp" data-provider="TVAndroidTvAppData" finished-at="2026-05-22T13:06:01 IST" duration-ms="4320" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Google TV]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ApiDemos-debug.apk]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the service http://localhost:4734/wd/hub. Could not start a new session. Response code 500. Message: Error executing adbExec. Original error: 'Command '/Users/fireflinkcloud/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5560 shell pm clear io.appium.android.apis' exited with code 1'; Command output: Failed
+ 
+Host info: host: 'Fireflinks-MacBook-Pro-2.local', ip: 'fe80:0:0:0:18e6:3fe2:5f53:5a47%en0'
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.7.6', java.version: '17.0.15'
+Driver info: driver.version: unknown
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.7.6', java.version: '17.0.15'
+Driver info: driver.version: unknown
+Build info: version: '4.21.0', revision: 'Unknown'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-126-generic', java.version: '17.0.18'
+Driver info: driver.version: unknown
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=ApiDemos-debug.apk, appium:deviceName=Google TV, appium:deviceType=public, appium:isVirtual=true, appium:platformVersion=16, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:app: ApiDemos-debug.apk, appium:deviceName: Google TV, appium:deviceType: public, appium:isVirtual: true, appium:platformVersion: 16, platformName: ANDROID}}]
+Capabilities {appium:app: ApiDemos-debug.apk, appium:deviceName: Google TV, appium:deviceType: public, appium:isVirtual: true, appium:platformVersion: 16, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the service http://localhost:4734/wd/hub. Could not start a new session. Response code 500. Message: Error executing adbExec. Original error: 'Command '/Users/fireflinkcloud/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5560 shell pm clear io.appium.android.apis' exited with code 1'; Command output: Failed
+ 
+Host info: host: 'Fireflinks-MacBook-Pro-2.local', ip: 'fe80:0:0:0:18e6:3fe2:5f53:5a47%en0'
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.7.6', java.version: '17.0.15'
+Driver info: driver.version: unknown
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.7.6', java.version: '17.0.15'
+Driver info: driver.version: unknown
+Build info: version: '4.21.0', revision: 'Unknown'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-126-generic', java.version: '17.0.18'
+Driver info: driver.version: unknown
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=ApiDemos-debug.apk, appium:deviceName=Google TV, appium:deviceType=public, appium:isVirtual=true, appium:platformVersion=16, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:app: ApiDemos-debug.apk, appium:deviceName: Google TV, appium:deviceType: public, appium:isVirtual: true, appium:platformVersion: 16, platformName: ANDROID}}]
+Capabilities {appium:app: ApiDemos-debug.apk, appium:deviceName: Google TV, appium:deviceType: public, appium:isVirtual: true, appium:platformVersion: 16, platformName: ANDROID}
+at AT_Scripts._10_TV_AndroidTv.TVAndroidTVAppAPIDemoApp(_10_TV_AndroidTv.java:120)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the service http://localhost:4734/wd/hub. Could not start a new session. Response code 500. Message: Error executing adbExec. Original error: 'Command '/Users/fireflinkcloud/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5560 shell pm clear io.appium.android.apis' exited with code 1'; Command output: Failed
+ 
+Host info: host: 'Fireflinks-MacBook-Pro-2.local', ip: 'fe80:0:0:0:18e6:3fe2:5f53:5a47%en0'
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.7.6', java.version: '17.0.15'
+Driver info: driver.version: unknown
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.7.6', java.version: '17.0.15'
+Driver info: driver.version: unknown
+Build info: version: '4.21.0', revision: 'Unknown'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-126-generic', java.version: '17.0.18'
+Driver info: driver.version: unknown
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=ApiDemos-debug.apk, appium:deviceName=Google TV, appium:deviceType=public, appium:isVirtual=true, appium:platformVersion=16, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:app: ApiDemos-debug.apk, appium:deviceName: Google TV, appium:deviceType: public, appium:isVirtual: true, appium:platformVersion: 16, platformName: ANDROID}}]
+Capabilities {appium:app: ApiDemos-debug.apk, appium:deviceName: Google TV, appium:deviceType: public, appium:isVirtual: true, appium:platformVersion: 16, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+at AT_Scripts._10_TV_AndroidTv.TVAndroidTVAppAPIDemoApp(_10_TV_AndroidTv.java:40)
+... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TVAndroidTVAppAPIDemoApp -->
+      </class> <!-- AT_Scripts._10_TV_AndroidTv -->
+    </test> <!-- DeviceFarm_AT_TV -->
+    <test started-at="2026-05-22T13:05:57 IST" name="DeviceFarm_AT_Tablet" finished-at="2026-05-22T13:08:28 IST" duration-ms="151353">
+      <class name="AT_Scripts._07_Tablet_Android_Browser">
+        <test-method signature="androidTabletBrowserPantaloonsSite(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._07_Tablet_Android_Browser@55634720]" started-at="2026-05-22T13:06:32 IST" name="androidTabletBrowserPantaloonsSite" data-provider="androidTabletBrowserCapsData" finished-at="2026-05-22T13:07:14 IST" duration-ms="41536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pixel Tablet]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidTabletBrowserPantaloonsSite -->
+      </class> <!-- AT_Scripts._07_Tablet_Android_Browser -->
+      <class name="AT_Scripts._08_iPad_iOS_App">
+        <test-method signature="iOSiPadAppSauceLabs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Boolean)[pri:0, instance:AT_Scripts._08_iPad_iOS_App@4b0d79fc]" started-at="2026-05-22T13:07:14 IST" name="iOSiPadAppSauceLabs" data-provider="iOSiPadAppCapsData" finished-at="2026-05-22T13:08:06 IST" duration-ms="52307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Simulator iPad Air 13inch M3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[18.4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[iOS.Simulator.SauceLabs.Mobile.Sample.app.zip]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[com.saucelabs.SwagLabsMobileApp]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iOSiPadAppSauceLabs -->
+      </class> <!-- AT_Scripts._08_iPad_iOS_App -->
+      <class name="AT_Scripts._06_Tablet_Android_App">
+        <test-method signature="androidTabletAppGeneralStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._06_Tablet_Android_App@4659191b]" started-at="2026-05-22T13:05:57 IST" name="androidTabletAppGeneralStore" data-provider="androidTabletAppCapsData" finished-at="2026-05-22T13:06:32 IST" duration-ms="35427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pixel Tablet]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[General-Store-final (4).apk]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidTabletAppGeneralStore -->
+      </class> <!-- AT_Scripts._06_Tablet_Android_App -->
+      <class name="AT_Scripts._09_iPad_iOS_Browser">
+        <test-method signature="iOSiPadBrowserWikipedia(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._09_iPad_iOS_Browser@4c1909a3]" started-at="2026-05-22T13:08:06 IST" name="iOSiPadBrowserWikipedia" data-provider="iOSiPadBrowserCapsData" finished-at="2026-05-22T13:08:28 IST" duration-ms="22026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Simulator iPad Air 13inch M3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[18.4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iOSiPadBrowserWikipedia -->
+      </class> <!-- AT_Scripts._09_iPad_iOS_Browser -->
+    </test> <!-- DeviceFarm_AT_Tablet -->
+    <test started-at="2026-05-22T13:05:57 IST" name="DeviceFarm_AT_Mobile" finished-at="2026-05-22T13:12:42 IST" duration-ms="405303">
+      <class name="AT_Scripts._03_Mobile_Android_Browser">
+        <test-method signature="androidMobileBrowserPantaloonsSite(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._03_Mobile_Android_Browser@194bcebf]" started-at="2026-05-22T13:07:47 IST" name="androidMobileBrowserPantaloonsSite" data-provider="androidMobileBrowserCapsData" finished-at="2026-05-22T13:08:37 IST" duration-ms="50253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pixel 7 Pro]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidMobileBrowserPantaloonsSite -->
+        <test-method signature="androidMobileBrowserPantaloonsSite(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._03_Mobile_Android_Browser@194bcebf]" started-at="2026-05-22T13:08:37 IST" name="androidMobileBrowserPantaloonsSite" data-provider="androidMobileBrowserCapsData" finished-at="2026-05-22T13:09:23 IST" duration-ms="45771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pixel 7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidMobileBrowserPantaloonsSite -->
+        <test-method signature="androidMobileBrowserPantaloonsSite(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._03_Mobile_Android_Browser@194bcebf]" started-at="2026-05-22T13:09:23 IST" name="androidMobileBrowserPantaloonsSite" data-provider="androidMobileBrowserCapsData" finished-at="2026-05-22T13:10:12 IST" duration-ms="49241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OnePlus Nord CE 2 Lite 5G]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidMobileBrowserPantaloonsSite -->
+        <test-method signature="androidMobileBrowserPantaloonsSite(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._03_Mobile_Android_Browser@194bcebf]" started-at="2026-05-22T13:10:12 IST" name="androidMobileBrowserPantaloonsSite" data-provider="androidMobileBrowserCapsData" finished-at="2026-05-22T13:11:02 IST" duration-ms="49224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy A12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidMobileBrowserPantaloonsSite -->
+      </class> <!-- AT_Scripts._03_Mobile_Android_Browser -->
+      <class name="AT_Scripts._04_Mobile_iOS_App">
+        <test-method signature="iOSMobileAppBigBasket(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Boolean)[pri:0, instance:AT_Scripts._04_Mobile_iOS_App@17497425]" started-at="2026-05-22T13:11:02 IST" name="iOSMobileAppBigBasket" data-provider="iOSMobileAppCapsData" finished-at="2026-05-22T13:11:54 IST" duration-ms="52368" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone 11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[18.3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[bigbasket.ipa]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[com.bigbasket.mobileapp]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for presence of element located by: AppiumBy.iOSNsPredicate: label == 'Cancel' (tried for 5 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: AppiumBy.iOSNsPredicate: label == 'Cancel' (tried for 5 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at AT_Scripts._04_Mobile_iOS_App.iOSMobileAppBigBasket(_04_Mobile_iOS_App.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [d95052cc-37ba-4fdb-ac01-97559b050c1f, findElement {using=-ios predicate string, value=label == 'Cancel'}]
+Capabilities {appium:app: https://fireflink-test3.s3...., appium:autoAcceptAlerts: true, appium:automationName: XCUITest, appium:bundleId: com.bigbasket.mobileapp, appium:databaseEnabled: false, appium:deviceName: iPhone 11, appium:deviceType: public, appium:fullReset: true, appium:isVirtual: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:mjpegScreenshotUrl: http://localhost:9101, appium:mjpegServerPort: 9101, appium:networkConnectionEnabled: false, appium:platformVersion: 18.3, appium:takesScreenshot: true, appium:udid: 00008030-001A6C912EF2402E, appium:wdaLocalPort: 8101, appium:webStorageEnabled: false, platformName: IOS, se:bidiEnabled: false, se:cdpEnabled: false}
+Session ID: d95052cc-37ba-4fdb-ac01-97559b050c1f
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iOSMobileAppBigBasket -->
+      </class> <!-- AT_Scripts._04_Mobile_iOS_App -->
+      <class name="AT_Scripts._05_Mobile_iOS_Browser">
+        <test-method signature="iOSMobileBrowserWikipedia(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._05_Mobile_iOS_Browser@f0da945]" started-at="2026-05-22T13:11:54 IST" name="iOSMobileBrowserWikipedia" data-provider="iOSMobileBrowserCapsData" finished-at="2026-05-22T13:12:42 IST" duration-ms="48225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone 11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[18.3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iOSMobileBrowserWikipedia -->
+      </class> <!-- AT_Scripts._05_Mobile_iOS_Browser -->
+      <class name="AT_Scripts._02_Mobile_Android_App">
+        <test-method signature="androidMobileAppGeneralStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._02_Mobile_Android_App@3c7f66c4]" started-at="2026-05-22T13:05:57 IST" name="androidMobileAppGeneralStore" data-provider="androidMobileAppCapsData" finished-at="2026-05-22T13:06:35 IST" duration-ms="37835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy A12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[General-Store-final (4).apk]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidMobileAppGeneralStore -->
+        <test-method signature="androidMobileAppGeneralStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._02_Mobile_Android_App@3c7f66c4]" started-at="2026-05-22T13:06:35 IST" name="androidMobileAppGeneralStore" data-provider="androidMobileAppCapsData" finished-at="2026-05-22T13:07:13 IST" duration-ms="38317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pixel 7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[General-Store-final (4).apk]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidMobileAppGeneralStore -->
+        <test-method signature="androidMobileAppGeneralStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)[pri:0, instance:AT_Scripts._02_Mobile_Android_App@3c7f66c4]" started-at="2026-05-22T13:07:13 IST" name="androidMobileAppGeneralStore" data-provider="androidMobileAppCapsData" finished-at="2026-05-22T13:07:47 IST" duration-ms="34005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pixel 7 Pro]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[General-Store-final (4).apk]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidMobileAppGeneralStore -->
+      </class> <!-- AT_Scripts._02_Mobile_Android_App -->
+    </test> <!-- DeviceFarm_AT_Mobile -->
+    <test started-at="2026-05-22T13:05:57 IST" name="DeviceFarm_AT_Web" finished-at="2026-05-22T13:18:37 IST" duration-ms="760429">
+      <class name="AT_Scripts._01_Web_Automation">
+        <test-method signature="webAutomationPantaloonsSite(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AT_Scripts._01_Web_Automation@14555e0a]" started-at="2026-05-22T13:05:57 IST" name="webAutomationPantaloonsSite" data-provider="webBrowserCapsData" finished-at="2026-05-22T13:07:05 IST" duration-ms="68361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 11]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[136]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webAutomationPantaloonsSite -->
+        <test-method signature="webAutomationPantaloonsSite(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AT_Scripts._01_Web_Automation@14555e0a]" started-at="2026-05-22T13:07:05 IST" name="webAutomationPantaloonsSite" data-provider="webBrowserCapsData" finished-at="2026-05-22T13:10:05 IST" duration-ms="180022" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 11]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[136]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'FFE-PRADEEP-KUM', ip: '10.10.41.1']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'FFE-PRADEEP-KUM', ip: '10.10.41.1'
+at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:128)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'FFE-PRADEEP-KUM', ip: '10.10.41.1'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:71)
+... 22 more
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:48)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:96)
+at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 26 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webAutomationPantaloonsSite -->
+        <test-method signature="webAutomationPantaloonsSite(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AT_Scripts._01_Web_Automation@14555e0a]" started-at="2026-05-22T13:10:05 IST" name="webAutomationPantaloonsSite" data-provider="webBrowserCapsData" finished-at="2026-05-22T13:11:16 IST" duration-ms="70580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 11]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[136]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webAutomationPantaloonsSite -->
+        <test-method signature="webAutomationPantaloonsSite(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AT_Scripts._01_Web_Automation@14555e0a]" started-at="2026-05-22T13:11:16 IST" name="webAutomationPantaloonsSite" data-provider="webBrowserCapsData" finished-at="2026-05-22T13:12:01 IST" duration-ms="44956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[136]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webAutomationPantaloonsSite -->
+        <test-method signature="webAutomationPantaloonsSite(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AT_Scripts._01_Web_Automation@14555e0a]" started-at="2026-05-22T13:12:01 IST" name="webAutomationPantaloonsSite" data-provider="webBrowserCapsData" finished-at="2026-05-22T13:13:12 IST" duration-ms="70724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[136]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webAutomationPantaloonsSite -->
+        <test-method signature="webAutomationPantaloonsSite(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AT_Scripts._01_Web_Automation@14555e0a]" started-at="2026-05-22T13:13:12 IST" name="webAutomationPantaloonsSite" data-provider="webBrowserCapsData" finished-at="2026-05-22T13:14:16 IST" duration-ms="64207" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[136]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: session not created
+from unknown error: unable to discover open pages 
+Host info: host: 'DESKTOP-H2S30AK', ip: '10.8.0.60'
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.21.0', revision: 'Unknown'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-168-generic', java.version: '17.0.18'
+Driver info: driver.version: unknown
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}, platformName: Windows 10}]}]
+Capabilities {browserName: MicrosoftEdge, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}, platformName: Windows 10}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: session not created
+from unknown error: unable to discover open pages 
+Host info: host: 'DESKTOP-H2S30AK', ip: '10.8.0.60'
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.21.0', revision: 'Unknown'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-168-generic', java.version: '17.0.18'
+Driver info: driver.version: unknown
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}, platformName: Windows 10}]}]
+Capabilities {browserName: MicrosoftEdge, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}, platformName: Windows 10}
+at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:128)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: session not created
+from unknown error: unable to discover open pages 
+Host info: host: 'DESKTOP-H2S30AK', ip: '10.8.0.60'
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.21.0', revision: 'Unknown'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-168-generic', java.version: '17.0.18'
+Driver info: driver.version: unknown
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}, platformName: Windows 10}]}]
+Capabilities {browserName: MicrosoftEdge, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}, platformName: Windows 10}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:71)
+... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webAutomationPantaloonsSite -->
+        <test-method signature="webAutomationPantaloonsSite(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AT_Scripts._01_Web_Automation@14555e0a]" started-at="2026-05-22T13:14:16 IST" name="webAutomationPantaloonsSite" data-provider="webBrowserCapsData" finished-at="2026-05-22T13:15:47 IST" duration-ms="90804" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[comet]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[142.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[org.openqa.selenium.json.JsonException: Unable to parse: Failed to forward request: Cannot invoke "String.trim()" because "memoryStr" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: org.openqa.selenium.json.JsonException: Unable to parse: Failed to forward request: Cannot invoke "String.trim()" because "memoryStr" is null
+at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:128)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: Failed to forward request: Cannot invoke "String.trim()" because "memoryStr" is null
+at org.openqa.selenium.json.Json.toType(Json.java:169)
+at org.openqa.selenium.json.Json.toType(Json.java:152)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:99)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:325)
+at Utils.ScreenShotLogic.takeScreenshot(ScreenShotLogic.java:22)
+at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:100)
+... 22 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: F. Last 1 characters read: F
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:164)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:170)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+at org.openqa.selenium.json.Json.toType(Json.java:206)
+at org.openqa.selenium.json.Json.toType(Json.java:167)
+... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webAutomationPantaloonsSite -->
+        <test-method signature="webAutomationPantaloonsSite(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AT_Scripts._01_Web_Automation@14555e0a]" started-at="2026-05-22T13:15:47 IST" name="webAutomationPantaloonsSite" data-provider="webBrowserCapsData" finished-at="2026-05-22T13:16:04 IST" duration-ms="17496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mac Tahoe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[136]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webAutomationPantaloonsSite -->
+        <test-method signature="webAutomationPantaloonsSite(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AT_Scripts._01_Web_Automation@14555e0a]" started-at="2026-05-22T13:16:04 IST" name="webAutomationPantaloonsSite" data-provider="webBrowserCapsData" finished-at="2026-05-22T13:16:28 IST" duration-ms="24101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mac Tahoe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[136]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webAutomationPantaloonsSite -->
+        <test-method signature="webAutomationPantaloonsSite(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AT_Scripts._01_Web_Automation@14555e0a]" started-at="2026-05-22T13:16:28 IST" name="webAutomationPantaloonsSite" data-provider="webBrowserCapsData" finished-at="2026-05-22T13:16:28 IST" duration-ms="104" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mac Tahoe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[136]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: null 
+Host info: host: 'FFE-PRADEEP-KUM', ip: '10.10.41.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: safari, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, platformName: mac Tahoe}]}]
+Capabilities {browserName: safari, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, platformName: mac Tahoe}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: null 
+Host info: host: 'FFE-PRADEEP-KUM', ip: '10.10.41.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: safari, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, platformName: mac Tahoe}]}]
+Capabilities {browserName: safari, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, platformName: mac Tahoe}
+at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:128)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: null 
+Host info: host: 'FFE-PRADEEP-KUM', ip: '10.10.41.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: safari, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, platformName: mac Tahoe}]}]
+Capabilities {browserName: safari, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, platformName: mac Tahoe}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:71)
+... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webAutomationPantaloonsSite -->
+        <test-method signature="webAutomationPantaloonsSite(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AT_Scripts._01_Web_Automation@14555e0a]" started-at="2026-05-22T13:16:28 IST" name="webAutomationPantaloonsSite" data-provider="webBrowserCapsData" finished-at="2026-05-22T13:16:43 IST" duration-ms="15115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[comet]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mac Tahoe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[142.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webAutomationPantaloonsSite -->
+        <test-method signature="webAutomationPantaloonsSite(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AT_Scripts._01_Web_Automation@14555e0a]" started-at="2026-05-22T13:16:43 IST" name="webAutomationPantaloonsSite" data-provider="webBrowserCapsData" finished-at="2026-05-22T13:17:28 IST" duration-ms="45082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[136]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webAutomationPantaloonsSite -->
+        <test-method signature="webAutomationPantaloonsSite(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AT_Scripts._01_Web_Automation@14555e0a]" started-at="2026-05-22T13:17:28 IST" name="webAutomationPantaloonsSite" data-provider="webBrowserCapsData" finished-at="2026-05-22T13:18:37 IST" duration-ms="68814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[136]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webAutomationPantaloonsSite -->
+      </class> <!-- AT_Scripts._01_Web_Automation -->
+    </test> <!-- DeviceFarm_AT_Web -->
+  </suite> <!-- DF_Automation_Testing -->
+</testng-results>

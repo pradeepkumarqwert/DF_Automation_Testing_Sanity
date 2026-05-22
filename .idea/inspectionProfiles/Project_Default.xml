@@ -1,0 +1,50 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="groups">
+        <value>
+          <list size="37">
+            <item index="0" class="java.lang.String" itemvalue="Android" />
+            <item index="1" class="java.lang.String" itemvalue="Android_App" />
+            <item index="2" class="java.lang.String" itemvalue="Mobile" />
+            <item index="3" class="java.lang.String" itemvalue="Mobile_App" />
+            <item index="4" class="java.lang.String" itemvalue="All" />
+            <item index="5" class="java.lang.String" itemvalue="Web" />
+            <item index="6" class="java.lang.String" itemvalue="Android_Browser" />
+            <item index="7" class="java.lang.String" itemvalue="Mobile_Browser" />
+            <item index="8" class="java.lang.String" itemvalue="iOS" />
+            <item index="9" class="java.lang.String" itemvalue="iOS_App" />
+            <item index="10" class="java.lang.String" itemvalue="iOS_Browser" />
+            <item index="11" class="java.lang.String" itemvalue="Tablet" />
+            <item index="12" class="java.lang.String" itemvalue="Tablet_App" />
+            <item index="13" class="java.lang.String" itemvalue="Tablet_Browser" />
+            <item index="14" class="java.lang.String" itemvalue="iOS_Mobile_Browser" />
+            <item index="15" class="java.lang.String" itemvalue="iOS_Tablet_Browser" />
+            <item index="16" class="java.lang.String" itemvalue="iOS_Mobile_App" />
+            <item index="17" class="java.lang.String" itemvalue="Android_Mobile_App" />
+            <item index="18" class="java.lang.String" itemvalue="Android_Mobile_Browser" />
+            <item index="19" class="java.lang.String" itemvalue="Android_Tablet_App" />
+            <item index="20" class="java.lang.String" itemvalue="Android_Tablet_Browser" />
+            <item index="21" class="java.lang.String" itemvalue="Android_iPad_App" />
+            <item index="22" class="java.lang.String" itemvalue="iPad" />
+            <item index="23" class="java.lang.String" itemvalue="iPad_App" />
+            <item index="24" class="java.lang.String" itemvalue="iPad_Browser" />
+            <item index="25" class="java.lang.String" itemvalue="iOS_iPad_Browser" />
+            <item index="26" class="java.lang.String" itemvalue="iOS_iPad_App" />
+            <item index="27" class="java.lang.String" itemvalue="AndroidTV_TV_App" />
+            <item index="28" class="java.lang.String" itemvalue="Android_TV" />
+            <item index="29" class="java.lang.String" itemvalue="TV" />
+            <item index="30" class="java.lang.String" itemvalue="TV_App" />
+            <item index="31" class="java.lang.String" itemvalue="Android_Mobile" />
+            <item index="32" class="java.lang.String" itemvalue="iOS_Mobile" />
+            <item index="33" class="java.lang.String" itemvalue="Android_Tablet" />
+            <item index="34" class="java.lang.String" itemvalue="iOS_iPad" />
+            <item index="35" class="java.lang.String" itemvalue="Android_TV_App" />
+            <item index="36" class="java.lang.String" itemvalue="AndroidTV" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

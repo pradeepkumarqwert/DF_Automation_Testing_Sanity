@@ -1,0 +1,530 @@
+<html>
+<head>
+<title>TestNG:  DeviceFarm_AT_Web</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>DeviceFarm_AT_Web</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/4/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 22 13:05:57 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>760 seconds (760429 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Web </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite()'><b>webAutomationPantaloonsSite</b><br>Test class: AT_Scripts._01_Web_Automation<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, firefox, true, public, Windows 11, 136</td>
+<td><div><pre>java.lang.RuntimeException: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;FFE-PRADEEP-KUM&apos;, ip: &apos;10.10.41.1&apos;
+	at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;FFE-PRADEEP-KUM&apos;, ip: &apos;10.10.41.1&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
+	at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:71)
+	... 22 more
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:48)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:96)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 26 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+	... 37 more
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1241033610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1241033610'><pre>java.lang.RuntimeException: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;FFE-PRADEEP-KUM&apos;, ip: &apos;10.10.41.1&apos;
+	at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:128)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;FFE-PRADEEP-KUM&apos;, ip: &apos;10.10.41.1&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
+	at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:71)
+	... 22 more
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:48)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:96)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 26 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+	... 37 more
+</pre></div></td>
+<td>180</td>
+<td>AT_Scripts._01_Web_Automation@14555e0a</td></tr>
+<tr>
+<td title='AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite()'><b>webAutomationPantaloonsSite</b><br>Test class: AT_Scripts._01_Web_Automation<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, edge, true, public, Windows 10, 136</td>
+<td><div><pre>java.lang.RuntimeException: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: session not created
+from unknown error: unable to discover open pages 
+Host info: host: &apos;DESKTOP-H2S30AK&apos;, ip: &apos;10.8.0.60&apos;
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.21.0&apos;, revision: &apos;Unknown&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-168-generic&apos;, java.version: &apos;17.0.18&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}, platformName: Windows 10}]}]
+Capabilities {browserName: MicrosoftEdge, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}, platformName: Windows 10}
+	at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: session not created
+from unknown error: unable to discover open pages 
+Host info: host: &apos;DESKTOP-H2S30AK&apos;, ip: &apos;10.8.0.60&apos;
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.21.0&apos;, revision: &apos;Unknown&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-168-generic&apos;, java.version: &apos;17.0.18&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}, platformName: Windows 10}]}]
+Capabilities {browserName: MicrosoftEdge, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}, platformName: Windows 10}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
+	at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:71)
+	... 22 more
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace68812602", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace68812602'><pre>java.lang.RuntimeException: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: session not created
+from unknown error: unable to discover open pages 
+Host info: host: &apos;DESKTOP-H2S30AK&apos;, ip: &apos;10.8.0.60&apos;
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.21.0&apos;, revision: &apos;Unknown&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-168-generic&apos;, java.version: &apos;17.0.18&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}, platformName: Windows 10}]}]
+Capabilities {browserName: MicrosoftEdge, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}, platformName: Windows 10}
+	at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:128)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: session not created
+from unknown error: unable to discover open pages 
+Host info: host: &apos;DESKTOP-H2S30AK&apos;, ip: &apos;10.8.0.60&apos;
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.21.0&apos;, revision: &apos;Unknown&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-168-generic&apos;, java.version: &apos;17.0.18&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}, platformName: Windows 10}]}]
+Capabilities {browserName: MicrosoftEdge, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, ms:edgeOptions: {args: [--remote-allow-origins=*], extensions: []}, platformName: Windows 10}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
+	at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:71)
+	... 22 more
+</pre></div></td>
+<td>64</td>
+<td>AT_Scripts._01_Web_Automation@14555e0a</td></tr>
+<tr>
+<td title='AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite()'><b>webAutomationPantaloonsSite</b><br>Test class: AT_Scripts._01_Web_Automation<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, safari, true, public, mac Tahoe, 136</td>
+<td><div><pre>java.lang.RuntimeException: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: null 
+Host info: host: &apos;FFE-PRADEEP-KUM&apos;, ip: &apos;10.10.41.1&apos;
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: safari, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, platformName: mac Tahoe}]}]
+Capabilities {browserName: safari, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, platformName: mac Tahoe}
+	at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: null 
+Host info: host: &apos;FFE-PRADEEP-KUM&apos;, ip: &apos;10.10.41.1&apos;
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: safari, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, platformName: mac Tahoe}]}]
+Capabilities {browserName: safari, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, platformName: mac Tahoe}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
+	at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:71)
+	... 22 more
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace16913089", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace16913089'><pre>java.lang.RuntimeException: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: null 
+Host info: host: &apos;FFE-PRADEEP-KUM&apos;, ip: &apos;10.10.41.1&apos;
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: safari, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, platformName: mac Tahoe}]}]
+Capabilities {browserName: safari, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, platformName: mac Tahoe}
+	at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:128)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: null 
+Host info: host: &apos;FFE-PRADEEP-KUM&apos;, ip: &apos;10.10.41.1&apos;
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: safari, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, platformName: mac Tahoe}]}]
+Capabilities {browserName: safari, browserVersion: 136, devicefarm:networkLogEnable: true, fireflink:deviceType: public, platformName: mac Tahoe}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
+	at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:71)
+	... 22 more
+</pre></div></td>
+<td>0</td>
+<td>AT_Scripts._01_Web_Automation@14555e0a</td></tr>
+<tr>
+<td title='AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite()'><b>webAutomationPantaloonsSite</b><br>Test class: AT_Scripts._01_Web_Automation<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, comet, true, public, Windows 10, 142.0</td>
+<td><div><pre>java.lang.RuntimeException: org.openqa.selenium.json.JsonException: Unable to parse: Failed to forward request: Cannot invoke &quot;String.trim()&quot; because &quot;memoryStr&quot; is null
+	at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: Failed to forward request: Cannot invoke &quot;String.trim()&quot; because &quot;memoryStr&quot; is null
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:99)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:325)
+	at Utils.ScreenShotLogic.takeScreenshot(ScreenShotLogic.java:22)
+	at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:100)
+	... 22 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: F. Last 1 characters read: F
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:164)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:170)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	... 33 more
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace543426477", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace543426477'><pre>java.lang.RuntimeException: org.openqa.selenium.json.JsonException: Unable to parse: Failed to forward request: Cannot invoke &quot;String.trim()&quot; because &quot;memoryStr&quot; is null
+	at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:128)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: Failed to forward request: Cannot invoke &quot;String.trim()&quot; because &quot;memoryStr&quot; is null
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:99)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:325)
+	at Utils.ScreenShotLogic.takeScreenshot(ScreenShotLogic.java:22)
+	at AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite(_01_Web_Automation.java:100)
+	... 22 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: F. Last 1 characters read: F
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:164)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:170)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	... 33 more
+</pre></div></td>
+<td>90</td>
+<td>AT_Scripts._01_Web_Automation@14555e0a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite()'><b>webAutomationPantaloonsSite</b><br>Test class: AT_Scripts._01_Web_Automation<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, edge, true, public, Windows 11, 136</td>
+<td></td>
+<td>70</td>
+<td>AT_Scripts._01_Web_Automation@14555e0a</td></tr>
+<tr>
+<td title='AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite()'><b>webAutomationPantaloonsSite</b><br>Test class: AT_Scripts._01_Web_Automation<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, chrome, true, public, mac Tahoe, 136</td>
+<td></td>
+<td>17</td>
+<td>AT_Scripts._01_Web_Automation@14555e0a</td></tr>
+<tr>
+<td title='AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite()'><b>webAutomationPantaloonsSite</b><br>Test class: AT_Scripts._01_Web_Automation<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, firefox, true, public, mac Tahoe, 136</td>
+<td></td>
+<td>24</td>
+<td>AT_Scripts._01_Web_Automation@14555e0a</td></tr>
+<tr>
+<td title='AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite()'><b>webAutomationPantaloonsSite</b><br>Test class: AT_Scripts._01_Web_Automation<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, chrome, true, public, Windows 11, 136</td>
+<td></td>
+<td>68</td>
+<td>AT_Scripts._01_Web_Automation@14555e0a</td></tr>
+<tr>
+<td title='AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite()'><b>webAutomationPantaloonsSite</b><br>Test class: AT_Scripts._01_Web_Automation<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, firefox, true, public, Windows 10, 136</td>
+<td></td>
+<td>70</td>
+<td>AT_Scripts._01_Web_Automation@14555e0a</td></tr>
+<tr>
+<td title='AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite()'><b>webAutomationPantaloonsSite</b><br>Test class: AT_Scripts._01_Web_Automation<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, chrome, true, public, Windows 10, 136</td>
+<td></td>
+<td>44</td>
+<td>AT_Scripts._01_Web_Automation@14555e0a</td></tr>
+<tr>
+<td title='AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite()'><b>webAutomationPantaloonsSite</b><br>Test class: AT_Scripts._01_Web_Automation<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, chrome, true, public, linux, 136</td>
+<td></td>
+<td>45</td>
+<td>AT_Scripts._01_Web_Automation@14555e0a</td></tr>
+<tr>
+<td title='AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite()'><b>webAutomationPantaloonsSite</b><br>Test class: AT_Scripts._01_Web_Automation<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, comet, true, public, mac Tahoe, 142.0</td>
+<td></td>
+<td>15</td>
+<td>AT_Scripts._01_Web_Automation@14555e0a</td></tr>
+<tr>
+<td title='AT_Scripts._01_Web_Automation.webAutomationPantaloonsSite()'><b>webAutomationPantaloonsSite</b><br>Test class: AT_Scripts._01_Web_Automation<br>Parameters: https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&licenseId=LIC4347&projectName=testing+project/, firefox, true, public, linux, 136</td>
+<td></td>
+<td>68</td>
+<td>AT_Scripts._01_Web_Automation@14555e0a</td></tr>
+</table><p>
+</body>
+</html>

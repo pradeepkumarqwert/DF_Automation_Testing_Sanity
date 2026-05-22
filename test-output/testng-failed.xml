@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [DF_Automation_Testing]" guice-stage="DEVELOPMENT">
+  <parameter name="dF_hub_url_Via_Xml" value="https://fireflinkcloudtest.fireflink.com/backend/fireflinkcloud/wd/hub?accessKey=SR8jknR_mIQC4JpggBKPCR3ofdt-t8sZsEXCJnSK5NOCGg4Hmxh6Hgdhy0HKKafhW_UwYOQU0s2OZdTepoqhgy-wC5Vb9ye-A1KSPb2fkeL9hRoC3vQNXmpWgqL7V-OfMNjw8U4So1VHH_PtnKFAnOrZu0mpRhxMxp6xQk61KhkKLl_9-QxWBHBrhrrAbk9j_sZwMORKc0TtRzyPezSvgXqBwKu3tdCcFAJnEflyG2Mnrvmhj5TLrC10eqM4e3k1Vg2nxpia34gaQuvoI3dCXmmIr_xwT31-_1ihXMNwhIaGq_lG60GE_AqnVU6tUaU&amp;licenseId=LIC4347&amp;projectName=testing+project/"/>
+  <listeners>
+    <listener class-name="Supporting_Classes.Listeners.Listeners_Class"/>
+  </listeners>
+  <test thread-count="4" parallel="tests" name="DeviceFarm_AT_TV(failed)">
+    <groups>
+      <run>
+        <include name="AndroidTV"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="AT_Scripts._10_TV_AndroidTv">
+        <methods>
+          <include name="TVAndroidTVAppAPIDemoApp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AT_Scripts._10_TV_AndroidTv -->
+    </classes>
+  </test> <!-- DeviceFarm_AT_TV(failed) -->
+  <test thread-count="4" parallel="tests" name="DeviceFarm_AT_Mobile(failed)">
+    <groups>
+      <run>
+        <include name="Mobile"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="AT_Scripts._04_Mobile_iOS_App">
+        <methods>
+          <include name="iOSMobileAppBigBasket" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AT_Scripts._04_Mobile_iOS_App -->
+    </classes>
+  </test> <!-- DeviceFarm_AT_Mobile(failed) -->
+  <test thread-count="4" parallel="tests" name="DeviceFarm_AT_Web(failed)">
+    <groups>
+      <run>
+        <include name="Web"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="AT_Scripts._01_Web_Automation">
+        <methods>
+          <include name="webAutomationPantaloonsSite" invocation-numbers="1 5 6 9"/>
+        </methods>
+      </class> <!-- AT_Scripts._01_Web_Automation -->
+    </classes>
+  </test> <!-- DeviceFarm_AT_Web(failed) -->
+</suite> <!-- Failed suite [DF_Automation_Testing] -->
